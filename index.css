@@ -1,0 +1,235 @@
+/* ::::: http://steveandjacqs.com/wp-content/themes/steveandjacqs/style.css (@media all) ::::: */
+
+/* ::::: (import) http://steveandjacqs.com/wp-content/themes/steveandjacqs/css/reset.css ::::: */
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin: 0px; padding: 0px; }
+table { border-collapse: collapse; border-spacing: 0px; }
+fieldset, img { border: 0px none; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }
+ol, ul, li { list-style: none outside none; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+q:before, q:after { content: ""; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+a img { border: medium none; }
+/* ::::: (end import) ::::: */
+/* ::::: (import) http://steveandjacqs.com/wp-content/themes/steveandjacqs/css/typography.css ::::: */
+h1, h2, h3, h4, h5, h6 { font-weight: bold; color: #05CBFF; }
+.alert { background: none repeat scroll 0% 0% red; color: white; }
+.pictos { font-weight: normal; font-style: normal; line-height: normal; font-family: 'Pictos',sans-serif; }
+.tk-museo-slab { font-weight: 300; }
+/* ::::: (end import) ::::: */
+/* ::::: (import) http://steveandjacqs.com/wp-content/themes/steveandjacqs/css/layout.css ::::: */
+.aligncenter { display: block; margin: 0px auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+.wp-caption { border: 1px solid rgb(102, 102, 102); text-align: center; background: none repeat scroll 0% 0% rgb(204, 204, 204); padding: 10px; margin: 10px; }
+br.clear { clear: both; display: block; height: 1px; margin: -1px 0px 0px; }
+li#theme-switcher { background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 10px solid red; padding: 20px; position: fixed; top: 0px; right: 0px; }
+div#page_error { position: absolute; top: 50%; left: 50%; }
+div#page_error_position { position: relative; top: -50px; left: -200px; width: 400px; text-transform: uppercase; }
+div#page_error_position h1 { font-size: 50px; font-weight: 500; text-transform: uppercase; }
+div#page_sorry { position: absolute; top: 50%; left: 50%; }
+div#page_sorry_position { position: relative; top: -100px; left: -200px; width: 400px; text-transform: uppercase; }
+div#page_sorry_position h1 { font-size: 50px; font-weight: 500; text-transform: uppercase; }
+div#page_sorry_position p { text-align: justify; width: 100%; }
+div#page_sorry_position p.chrome { text-align: center; }
+/* ::::: (end import) ::::: */
+
+
+
+
+html, body { 
+	height: 100%; 
+	width: 100%; margin: 0px; overflow: hidden;
+	background: url("back.jpg") no-repeat center, url("cow.png") repeat center;}
+
+
+
+div.holding { position: absolute; top: 50%; left: 50%; }
+div.holding_inner { position: relative; top: -143px; left: -160px; width: 286px; height: 330px; background: url("holding.png") no-repeat scroll 0% 0% transparent; }
+div.holding_inner span { position: absolute; bottom: 0px; width: 100%; text-align: center; font-size: 2em; }
+a { color: rgb(0, 0, 0); color: white; text-decoration: none; outline: medium none; }
+a:hover { color: rgb(255, 164, 1); }
+p a { color: rgb(255, 164, 1); }
+p a:hover { color: rgb(255, 216, 146); }
+h1, h2, h3, h4 { margin: 0px; padding: 0px; }
+div#webfontawards { position: fixed; bottom: 35px; right: 2px; width: 130px; z-index: 5; }
+div#webfontawards span#wfa_star_left { float: left; }
+div#webfontawards span#wfa_star_right { float: right; }
+div#webfontawards span { position: relative; top: 0px; width: 20px; height: 31px; background: url("left_star.png") no-repeat scroll left bottom transparent; }
+div#webfontawards a img { float: left; }
+div.section, div.hide { display: none; }
+div#section_bigday { position: absolute; top: 0px; left: 0px; z-index: 2; }
+div#dotted-bigday { z-index: 1; position: absolute; width: 2346px; height: 350px; background: url("dotted_bigday.png") no-repeat scroll 0% 0% transparent; }
+div#section_home { position: absolute; width: 800px; min-height: 300px; margin: 0px auto; }
+div#dotted-journey { z-index: 1; position: absolute; width: 1273px; height: 2316px; background: url("dotted_journey.png") no-repeat scroll 0% 0% transparent; }
+div#section_journey { position: absolute; min-width: 800px; min-height: 300px; }
+div#dotted-blog { z-index: 1; position: absolute; width: 2201px; height: 191px; background: url("dotted_blog.png") no-repeat scroll 0% 0% transparent; }
+div#section_blog { position: absolute; left: 5635px; width: 800px; height: 400px; margin: 0px auto; }
+div#sharing { position: fixed; bottom: 0px; width: 100%; z-index: 999; }
+div#sharing_inner { position: relative; width: 420px; height: 42px; margin: 0px auto; overflow: hidden; border-width: 3px 3px medium; border-style: dashed dashed none; border-color: rgb(0, 0, 0) rgb(0, 0, 0) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; background: url("back.jpg") repeat scroll 0% 0% transparent; }
+div#addthis { float: left; position: relative; width: 240px; padding: 10px; }
+div#addthis a.addthis_button_facebook_like { width: 85px; }
+div#addthis a.addthis_button_tweet { width: 94px; }
+div#addthis a.addthis_button_pinterest_pinit { position: absolute; top: 10px; right: 0px; }
+div#icons { float: right; width: 134px; padding: 10px; border-left: 3px dashed rgb(0, 0, 0); }
+div#icons a { float: right; display: block; position: relative; top: -3px; width: 34px; height: 30px; }
+a.wordpress { background: url("icon_wordpress.png") no-repeat scroll center bottom transparent; }
+a.typekit { background: url("icon_typekit.png") no-repeat scroll center bottom transparent; visibility: hidden; }
+a.wordpress:hover, a.typekit:hover { background-position: center top; }
+div#icons a.onepagelove { width: 28px; height: 24px; margin: 3px 0px 0px; background: url("onepagelove.png") no-repeat scroll left top transparent; }
+div#icons a.onepagelove:hover { background: url("onepagelove.png") no-repeat scroll left bottom transparent; }
+div#icons a.twitter { width: 36px; height: 24px; margin: 3px 2px 0px 0px; background: url("icon_twitter.png") no-repeat scroll center top transparent; }
+div#icons a.twitter:hover { background: url("icon_twitter.png") no-repeat scroll center -31px transparent; }
+div#section_home_content, div#section_home div.double-line-star, div#ad { position: relative; width: 660px; margin: 0px auto; }
+div#left { float: left; width: 490px; }
+h1.welcome { margin: 5px 0px; line-height: 73px; font-size: 88px; font-weight: normal; white-space: nowrap; text-align: justify; }
+h3.welcome { padding: 5px; font-size: 16px; letter-spacing: 1px; text-align: center; color: rgb(123, 97, 60); background: none repeat scroll 0% 0% white; }
+ul.nav { position: relative; float: left; clear: both; width: 100%; z-index: 5; }
+ul.nav li { float: left; position: relative; margin: 0px 0px 0px 16px; cursor: pointer; }
+ul.nav li.nav-blog { float: right; margin: 0px; }
+ul.nav li.nav-busts { width: 65px; height: 65px; margin: 0px; background: no-repeat scroll left center transparent; }
+ul.nav li.current a { color: rgb(255, 164, 1); }
+ul#section_bigday_nav li { margin: 0px 0px 0px 7px; }
+ul#section_bigday_nav li.nav-busts { margin: 0px; }
+ul#section_bigday_nav li.nav-title { margin: 0px 0px 0px 2px; }
+ul.nav li.nav-title h1 { margin: 3px 0px 0px; padding: 0px; font-size: 52px; font-weight: 500; letter-spacing: -1px; color: rgb(255, 164, 1); }
+h2.tk-league-gothic { margin: 13px 0px 0px; font-size: 40px; font-weight: 500; line-height: 30px; text-align: center; }
+h4.tk-museo-slab { font-size: 14px; line-height: 12px; text-align: center; }
+ul#nav li.nav-bigday { margin: 0px 0px 0px 16px; }
+li.nav-bigday h4.tk-museo-slab { letter-spacing: 0.5px; }
+ul#nav li.nav-blog { float: right; margin: 0px; }
+li.nav-blog h4.tk-museo-slab { font-size: 14px; line-height: 12px; letter-spacing: -1px; text-align: center; }
+div#polaroid { float: right; position: relative; width: 166px; height: 180px; background: url("polaroid.png") no-repeat scroll 0px 1px transparent; z-index: 10; top: 77px; }
+div#ad { position: fixed; top: -50px; left: 0px; width: 100%; z-index: 999; background: none repeat scroll 0% 0% rgb(0, 0, 0); }
+div#ad_inner { width: 740px; height: 46px; margin: 0px auto; }
+div#ad_inner h4 { float: left; width: 410px; padding: 2px 0px; text-align: left; line-height: 18px; color: rgb(123, 97, 60); background: none repeat scroll 0% 0% rgb(0, 0, 0); }
+div#ad_inner h4 a { padding: 0px 5px; color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(254, 164, 41); }
+div#signup { position: relative; margin-top: 4px; }
+div#signup input { float: left; width: 200px; height: 42px; line-height: 42px; font-family: "museo-slab-1"; font-size: 16px; color: rgb(0, 0, 0); padding: 0px 10px; border: medium none; background: none repeat scroll 0% 0% rgb(123, 97, 60); }
+div#signup span { float: left; width: 100px; height: 42px; margin: 0px 0px 0px 1px; line-height: 40px; font-size: 16px; text-align: center; color: rgb(0, 0, 0); cursor: pointer; background: none repeat scroll 0% 0% rgb(196, 113, 24); }
+div#signup span:hover { color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(254, 164, 41); }
+div#response { position: fixed; top: 50px; left: 0px; width: 100%; padding: 5px 0px; font-size: 14px; text-align: center; color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(196, 113, 24); }
+div#section_bigday { overflow: hidden; }
+div#section_bigday_content { width: 800px; margin: 100px auto 40px; position: relative; }
+div#section_bigday_content div.sub-section { float: left; clear: both; position: relative; z-index: 2; width: 100%; background: url("back.jpg") repeat scroll 0% 0% transparent; }
+div#section_bigday_content h1.tk-league-gothic, div#section_bigday_content h2.tk-league-gothic, div#section_bigday_content h3.tk-league-gothic, div#section_bigday_content h4.tk-league-gothic { clear: both; font-weight: 500; text-align: left; }
+div#section_bigday_content div.sub-section h1.tk-league-gothic { font-size: 52px; text-align: center; }
+div#section_bigday_content div.sub-section h2.tk-league-gothic { font-size: 44px; }
+div.sub-section h3.tk-league-gothic, div#bigday_intro_text h3.tk-league-gothic { font-size: 36px; }
+div#section_bigday_content div.sub-section h4.tk-league-gothic { font-size: 26px; }
+div#section_bigday_content div.sub-section h4.tk-museo-slab { font-size: 19px; position: relative; top: -7px; }
+div#section_bigday_content p a, div.sub-section h1.tk-league-gothic a, div.sub-section h2.tk-league-gothic a, div.sub-section h3.tk-league-gothic a, div.sub-section h4.tk-league-gothic a, div.sub-section h4.tk-museo-slab a { color: rgb(255, 164, 1); font-weight: 500; }
+div#section_bigday_content p a:hover, div.sub-section h1.tk-league-gothic a:hover, div.sub-section h2.tk-league-gothic a:hover, div.sub-section h3.tk-league-gothic a:hover, div.sub-section h4.tk-league-gothic a:hover, div.sub-section h4.tk-museo-slab a:hover { color: rgb(255, 216, 146); font-weight: 500; }
+div#section_bigday_content p { font-size: 14px; margin: 0px 0px 15px; text-align: justify; }
+div#bigday_intro_polaroid { clear: left; float: left; position: relative; left: -3px; width: 273px; height: 302px; margin: 30px 0px 0px; background: url("polaroid_large.png") no-repeat scroll 0px 1px transparent; }
+div#bigday_intro_text { float: right; width: 515px; margin: 37px 0px 0px; padding: 0px 0px 35px; background: url("bigday_intro_arrow.png") no-repeat scroll 80px 234px transparent; }
+div#bigday_dottedline { float: left; position: absolute; top: -75px; left: 6em; z-index: 1; width: 46em; height: 80em; background: url("CVTazirAala.png") no-repeat scroll center center transparent; background-size:100% auto;}
+div#bigday_nav { position: absolute; top: 470px; width: 800px; z-index: 5; }
+div#bigday_nav ul { float: left; width: 800px; margin: 0px; padding: 2px 0px; border-top: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); background: url("back.jpg") repeat scroll 0% 0% transparent; }
+div#bigday_nav ul li { margin: 0px; padding: 0px; }
+div#bigday_nav ul li { float: left; margin: 0px 0px 0px 21px; }
+div#bigday_nav ul li:last-child { float: right; }
+div#bigday_nav ul li a { font-size: 30px; line-height: 30px; position: relative; top: 2px; }
+div#bigday_nav ul li#subnav_first, div#bigday_nav ul li#subnav_back { margin: 0px; padding: 5px 8px; color: rgb(123, 97, 61); background: none repeat scroll 0% 0% rgb(0, 0, 0); cursor: pointer; }
+div#bigday_nav ul li#subnav_first:hover, div#bigday_nav ul li#subnav_back:hover { color: rgb(255, 164, 1); }
+div#bigday_nav ul li#subnav_back { padding: 5px 6px; }
+div#bigday_maps { margin: 405px 0px 0px; }
+div#bigday_maps_links { clear: both; margin: 40px 0px 0px; }
+div#bigday_maps_links p { clear: both; margin: 2px 0px 5px; text-align: left; }
+div#bigday_maps_links img { position: relative; left: -8px; }
+div#bigday_maps_links h4 { clear: both; position: relative; top: -10px; }
+div#bigday_food { margin: 422px 0px 0px; }
+div#bigday_food_mains { clear: both; width: 100%; height: 250px; border-top: 3px solid rgb(0, 0, 0); border-bottom: 3px solid rgb(0, 0, 0); background: url("black20.png") repeat scroll 0% 0% transparent; }
+div#bigday_food_mains div.bigday-third { height: 120px; margin: 10px 0px 0px; padding-top: 110px; border-right: 3px solid rgb(0, 0, 0); }
+div#bigday_food_mains div.bigday-third-last { border: medium none; }
+div#bigday_food_mains div#steak { background: url("co.png") no-repeat scroll center 12px transparent; }
+div#bigday_food_mains div#fish { background: url("fish.png") no-repeat scroll center 20px transparent; }
+div#bigday_food_mains div#veg { background: url("veg.png") no-repeat scroll center 40px transparent; }
+div#bigday_food_mains div.bigday-third h2, div#bigday_food_mains div.bigday-third h4, div#bigday_food_mains div.bigday-third p { margin: 0px; text-align: center; }
+div#bigday_food_mains div.bigday-third p { position: relative; top: -3px; font-size: 12px; }
+div#bigday_food_countdown { clear: both; float: left; margin: 10px 0px 0px; }
+div#bigday_food_countdown div.bigday-left { color: rgb(255, 164, 1); text-align: left; }
+div#bigday_food_countdown div.bigday-left span#top { position: relative; top: -2px; font-size: 35px; }
+div#bigday_food_countdown div.bigday-left span#bottom { position: relative; top: -15px; font-size: 39px; }
+div#bigday_food_countdown div.bigday-right { text-align: right; }
+div#bigday_food_countdown div.bigday-right span#top { font-size: 16px; }
+div#bigday_food_countdown div.bigday-right span#bottom { position: relative; top: -12px; font-size: 60px; letter-spacing: -1px; }
+div#bigday_food_courses { clear: both; width: 100%; height: 160px; margin: 0px 0px 30px; border-top: 3px solid rgb(0, 0, 0); border-bottom: 3px solid rgb(0, 0, 0); background: url("black20.png") repeat scroll 0% 0% transparent; }
+div#bigday_food_courses div.bigday-left, div#bigday_food_courses div.bigday-right { width: 358px; height: 130px; margin: 10px 0px 0px; padding: 10px 20px 0px; border-right: 3px solid rgb(0, 0, 0); }
+div#bigday_food_courses div.bigday-right { border: medium none; }
+div#bigday_food_courses div.bigday-left > *, div#bigday_food_courses div.bigday-right > * { text-align: center; }
+div#bigday_food_courses div.bigday-left h2.tk-league-gothic, div#bigday_food_courses div.bigday-right h2.tk-league-gothic { color: rgb(255, 164, 1); }
+div#bigday_giftlist { margin: 414px 0px 0px; }
+div#bigday_giftlist_links img { position: relative; top: 35px; left: -10px; }
+div#bigday_giftlist_links { margin: 50px 0px 0px; }
+div#bigday_giftlist_links p { margin: 0px; }
+div#bigday_giftlist_links p.giftlist_link { margin: 10px 0px; font-size: 18px; }
+div#bigday_giftlist_links h4.tk-league-gothic { position: relative; top: 10px; }
+div#bigday_giftlist_nopressure { margin: 60px 0px 0px; }
+div#bigday_accomodation { margin: 400px 0px 0px; }
+div#bigday_accomodation img { position: relative; top: 15px; left: -10px; }
+div#bigday_accomodation a { text-transform: uppercase; }
+div#bigday_footer { float: left; clear: both; margin: 50px 0px 70px; }
+div#bigday_footer h3.tk-league-gothic { position: relative; top: 5px; margin: 0px; font-size: 34px; }
+div#bigday_footer ul.nav { position: relative; top: -5px; }
+div#bigday_footer ul.nav li.nav_item { margin: 0px 0px 0px 27px; }
+div#bigday_footer ul.nav li h2 { text-align: center; }
+div#bigday_footer ul.nav li.nav-title { margin: 0px; }
+div#bigday_footer ul.nav li.nav-title h1 { color: rgb(0, 0, 0); margin: 0px; }
+div#section_journey_line { clear: both; width: 78px; height: 30px; margin: 2px auto 0px; background: url("dotted_journey.png") no-repeat scroll -116px -2317px transparent; }
+div#section_journey_content { position: relative; clear: both; width: 100%; height: 2023px; margin: 0px auto;} /* BACKGROUND DU BOOK ICI */
+div#section_blog { background: url("back.jpg") no-repeat scroll center; }
+div#section_blog h1.tk-league-gothic { position: relative; top: 130px; left: -6px; font-size: 19px; font-weight: normal; }
+div#footer { float: left; clear: both; }
+a.hand { position: absolute; display: block; width: 140px; height: 34px; padding: 0px 65px 0px 0px; background: url("hand.png") no-repeat scroll right top transparent; }
+a.hand h2 { line-height: 10px; }
+a.hand:hover { background: url("hand.png") no-repeat scroll right bottom transparent; }
+div#section_bigday a.hand { top: 5px; right: 20%; }
+div#section_journey a.hand { position: absolute; top: 35px; right: 75px; }
+div#section_blog a.hand { position: relative; top: 160px; left: 508px; z-index: 5; padding: 0px 0px 0px 65px; background: url("hand_left.png") no-repeat scroll left top transparent; }
+div#section_blog a.hand h2 { line-height: 40px; }
+div#section_blog a.hand:hover { background: url("hand_left.png") no-repeat scroll left bottom transparent; }
+div.left-star-container { float: left; clear: both; margin: 30px 0px 0px; }
+div.left-star { clear: both; width: 780px; padding: 0px 0px 0px 22px; margin: 0px; }
+div.left-star > * { position: relative; top: 3px; margin: 0px; padding: 0px; }
+div.bigday-third { float: left; width: 243px; padding: 0px 10px; }
+div.bigday-third-last { float: right; }
+div.bigday-left { float: left; width: 390px; padding: 0px 10px 0px 0px; }
+div.bigday-right { float: right; width: 390px; padding: 0px 0px 0px 10px; }
+div.bigday-left img, div.bigday-right img { position: relative; }
+div.double-line-star { clear: both; }
+div.double-line-star span { float: left; }
+span.double-line { float: left; position: relative; top: 7px; height: 2px; border-top: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); }
+div#section_home span.double-line { width: 312px; }
+div#section_bigday span.double-line { width: 384px; }
+div.single-line-star { clear: both; }
+div.single-line-star-bottom { clear: both; float: left; margin: 25px 0px 0px; }
+div.single-line-star span { float: left; }
+span.single-line { float: left; position: relative; top: 9px; border-top: 2px solid rgb(0, 0, 0); }
+div#section_bigday span.single-line { width: 384px; }
+span.icon_star { width: 20px; height: 20px; margin: 0px 6px; background: url("icon_star.png") no-repeat scroll 0% 0% transparent; }
+span.balloons { position: absolute; top: -26px; display: block; width: 35px; height: 44px; background: url("nav_ballons.png") no-repeat scroll 0% 0% transparent; }
+li.nav-bigday span.balloons { left: 57px; }
+li.nav-journey span.balloons { left: 74px; }
+li.nav-blog span.balloons { left: 62px; }
+span.bubble { position: absolute; top: -26px; left: -97px; display: block; width: 76px; height: 56px; padding: 11px 10px 5px; color: rgb(123, 97, 60); font-size: 14px; font-weight: 300; text-align: center; line-height: 14px;}
+/* ::::: [internal] ::::: */
+
+:root .addthis_toolbox { display: none ! important; }
+
+---------------------------------
+
+.floated_img
+{
+    float: left;
+    display: inline-block;
+}
+
+.floated_img img
+{
+	width: 10%
+}
+
+
